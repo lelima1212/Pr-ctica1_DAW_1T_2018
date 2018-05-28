@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<html class="lato-font-loaded" lang="es">
-		<link rel="icon" href="C:\Users\CltControl\Desktop\Prácticas DAW - Lenin\Pr-ctica1_DAW_1T_2018\icon.jpg">
+		<link href="estilo.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="C:\Users\CltControl\Desktop\Práctica DAW\Pr-ctica1_DAW_1T_2018\icon.jpg">
 		<title>Práctica1</title>
 	</head>
 	<body>
@@ -11,41 +12,45 @@
 			<h1>TodosMisServicios.ec</h1>
 		</header>
 		<nav class="menu">
-			<ul>
-				<li><a href="Principal.html"> Principal</a></li> 
- 	 			<li><a href="Práctica1_Lima.html"> Quienes Somos</a></li> 
-  				<li> <a href="Personal.html"> Personal</a></li>  
-  				<li> <a href="Encuéntranos.html"> Encuéntranos</a></li> 
+			<ul class ="horizontal">
+				<li class="menu1"><a href="Principal.html"style=”text-decoration:none;”> Principal</a></li> 
+ 	 			<li class="menu1"><a href="Práctica1_Lima.html"style=”text-decoration:none;”> Quienes Somos</a></li> 
+  				<li class="menu1"> <a href="Personal.html"style=”text-decoration:none;”> Personal</a></li>  
+  				<li class="menu1"> <a href="Encuéntranos.html"style=”text-decoration:none;”> Encuéntranos</a></li> 
 			</ul>
 		</nav>
-		<article>
-			<h2>¿Quiénes Somos?</h2>
-			<h3>Mision</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<img src="C:\Users\CltControl\Desktop\Prácticas DAW - Lenin\Pr-ctica1_DAW_1T_2018\Imagen.png" >
-			<h3>Vision</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<img src="C:\Users\CltControl\Desktop\Prácticas DAW - Lenin\Pr-ctica1_DAW_1T_2018\Imagen.png" >
-		</article>
-		<aside>
-			<h3>¿Cómo usar nuestro sitio?</h3>
-			<iframe width="320" height="240" src="https://www.youtube.com/embed/k-kW1T5dJpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			<h3>Stream</h3>
-				<a class="twitter-timeline" data-width="250" data-height="550" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</aside>
-		<footer>
+		<div id="contenedor">
+			<section>
+				<article>
+					<h2>¿Quiénes Somos?</h2>
+					<h3>Mision</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<img src="C:\Users\CltControl\Desktop\Práctica DAW\Pr-ctica1_DAW_1T_2018\Imagen.png" >
+					<h3>Vision</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<img src="C:\Users\CltControl\Desktop\Práctica DAW\Pr-ctica1_DAW_1T_2018\Imagen.png" >
+				</article>
+			</section>	
+			<aside>
+				<h3>¿Cómo usar nuestro sitio?</h3>
+				<iframe width="320" height="240" src="https://www.youtube.com/embed/k-kW1T5dJpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<h3>Stream</h3>
+					<a class="twitter-timeline" data-width="250" data-height="550" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</aside>
+		</div>
+		<footer class="pie">
 			<p>&copy; El contenido de esta obra es propiedad intelectual de nuestro grupo. Prohibida su reproducción total, parcial, comunicación pública, distribución sin autorización previa del titular de los derechos.</p>
-			<img src="C:\Users\CltControl\Desktop\Prácticas DAW - Lenin\Pr-ctica1_DAW_1T_2018\Imagen.png" >
+			<a href=""><img class="footer"src="C:\Users\CltControl\Desktop\Práctica DAW\Pr-ctica1_DAW_1T_2018\Imagen.png"></a>
 		</footer>
 	</body>
 </html>

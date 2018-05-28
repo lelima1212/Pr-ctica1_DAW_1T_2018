@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<html class="lato-font-loaded" lang="es">
-		<link rel="icon" href="C:\Users\CltControl\Desktop\Prácticas DAW - Lenin\Pr-ctica1_DAW_1T_2018\icon.jpg">
+		<link href="estilo.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="C:\Users\CltControl\Desktop\Práctica DAW\Pr-ctica1_DAW_1T_2018\icon.jpg">
 		<title>Práctica1</title>
 	</head>
 	<body>
@@ -11,45 +12,49 @@
 			<h1>TodosMisServicios.ec</h1>
 		</header>
 		<nav class="menu">
-			<ul>
-				<li><a href="Principal.html"> Principal</a></li> 
- 	 			<li><a href="Práctica1_Lima.html"> Quienes Somos</a></li> 
-  				<li> <a href="Personal.html"> Personal</a></li>  
-  				<li> <a href="Encuéntranos.html"> Encuéntranos</a></li> 
+			<ul class ="horizontal">
+				<li><a href="Principal.html"style=”text-decoration:none;”> Principal</a></li> 
+ 	 			<li><a href="Práctica1_Lima.html"style=”text-decoration:none;”> Quienes Somos</a></li> 
+  				<li> <a href="Personal.html"style=”text-decoration:none;”> Personal</a></li>  
+  				<li> <a href="Encuéntranos.html"style=”text-decoration:none;”> Encuéntranos</a></li> 
 			</ul>
 		</nav>
-		<article>
-			<h2>Envíanos tus Opiniones</h2>
-			<p>Nombres Completos <input type="text" size="15" maxlength="30" value="Ingrese aquí sus nombres" name="nombre"></p>
-			<p>Correo Electrónico<input type="text" size="15" maxlength="30" value="Ingrese aquí su correo electrónico" name="email"></p>
-			<p>Utilidad del Sitio <input type="radio" name="utilidad" value="1">Nada
-			<input type="radio" name="utilidad" value="2">Poco
-			<input type="radio" name="utilidad" value="3">Algo
-			<input type="radio" name="utilidad" value="4">Muy
-			<input type="radio" name="utilidad" value="5">Completamente</p>
-			<p>Edad </p>
-			<p>Provincia <select name="transporte">
-				<option>Guayas</option>
-				<option>Pichincha</option>
-				<option>Chimborazo</option>
-				<option>Cañar</option>
-				<option>Manabí</option>
-				<option selected>Azuay</option>
-			</select></p>
-			<p>Comentarios</p>
-			<textarea name="comentarios" rows="10" cols="40">Ingrese aquí tus comentarios</textarea><br>
-			<p><input type="checkbox" name="transporte" value="1">Deseo Suscribirme para recibir noticias</p>
-			<p><input type="button" value="Enviar"></p>
-		</article>
-		<aside>
-			<h3>¿Cómo usar nuestro sitio?</h3>
-			<iframe width="320" height="240" src="https://www.youtube.com/embed/k-kW1T5dJpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			<h3>Stream</h3>
-				<a class="twitter-timeline" data-width="250" data-height="550" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</aside>
+		<div id="contenedor">
+			<section>
+				<article>
+					<h2>Envíanos tus Opiniones</h2>
+					<p>Nombres Completos <input type="text" size="15" maxlength="30" value="Ingrese aquí sus nombres" name="nombre"></p>
+					<p>Correo Electrónico<input type="text" size="15" maxlength="30" value="Ingrese aquí su correo electrónico" name="email"></p>
+					<p>Utilidad del Sitio <input type="radio" name="utilidad" value="1">Nada
+					<input type="radio" name="utilidad" value="2">Poco
+					<input type="radio" name="utilidad" value="3">Algo
+					<input type="radio" name="utilidad" value="4">Muy
+					<input type="radio" name="utilidad" value="5">Completamente</p>
+					<p>Edad </p>
+					<p>Provincia <select name="transporte">
+						<option>Guayas</option>
+						<option>Pichincha</option>
+						<option>Chimborazo</option>
+						<option>Cañar</option>
+						<option>Manabí</option>
+						<option selected>Azuay</option>
+					</select></p>
+					<p>Comentarios</p>
+					<textarea name="comentarios" rows="10" cols="40">Ingrese aquí tus comentarios</textarea><br>
+					<p><input type="checkbox" name="transporte" value="1">Deseo Suscribirme para recibir noticias</p>
+					<p><input type="button" value="Enviar"></p>
+				</article>
+			</section>
+			<aside>
+				<h3>¿Cómo usar nuestro sitio?</h3>
+				<iframe width="320" height="240" src="https://www.youtube.com/embed/k-kW1T5dJpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<h3>Stream</h3>
+					<a class="twitter-timeline" data-width="250" data-height="550" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</aside>
+		</div>
 		<footer>
 			<p>&copy; El contenido de esta obra es propiedad intelectual de nuestro grupo. Prohibida su reproducción total, parcial, comunicación pública, distribución sin autorización previa del titular de los derechos.</p>
-			<img src="C:\Users\CltControl\Desktop\Prácticas DAW - Lenin\Pr-ctica1_DAW_1T_2018\Imagen.png" >
+			<a href=""><img src="C:\Users\CltControl\Desktop\Práctica DAW\Pr-ctica1_DAW_1T_2018\Imagen.png"></a>
 		</footer>
 	</body>
 </html>

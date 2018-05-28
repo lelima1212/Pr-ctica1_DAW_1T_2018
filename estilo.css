@@ -1,0 +1,118 @@
+h1{
+	text-align: center;
+}
+
+
+ul.horizontal{
+	margin: 0;
+	padding: 0;
+	text-decoration-style:none;
+}
+
+li.horizontal:hover {
+  background: red;
+}
+ 
+li.menu1:hover a {
+  color: green;
+}
+
+ul.horizontal li{
+
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+nav{
+    height: auto; /*Junto a overflow: hidden; aplicará a nuestro elemento nav el mismo alto que el más alto de sus elementos hijos */ 
+    margin: 0 auto; /* Centro el contenedor */
+    overflow: hidden;
+    text-align: left;
+    width: 960px; /* Defino el ancho de mi página */
+}
+ul{
+    float: left;
+    list-style-type: none; /* Elimino los estilos de lista */
+    padding: 0;
+    position: relative; 
+    left: 50%; 
+}
+li{
+    float: left; /* Floto los li para que se dispongan horizontalmente */
+    position: relative; 
+    right: 50%; 
+}
+li a{
+    padding: 10px; /* El padding añadirá separación entre los elementos */
+}
+
+section {
+    overflow: auto;
+    /* Definimos el padding inferior:
+       50px del pie de pagina mas 10px de separacion
+    */
+    padding-bottom: 60px;
+    /* Definimos un padding superior */
+    padding-top:30px;
+}
+footer {
+	margin-top: 30px;
+	padding-top:30px;
+
+    /* Altura del footer en px. Se han restado los 5px del margen
+       superior mas los 5px del margen inferior
+    */
+    height: 85px;
+    width: 73%;
+    padding:5px 0px;
+    clear: both;
+    text-align: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: 12%;
+
+}
+
+div#contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+ 
+div#contenedor section {
+  float: left;
+  width: 60%;
+}
+ 
+div#contenedor aside {
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  border: black 1px solid;
+  text-align: center;
+  padding-top:15px; 
+  margin-top:15px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+footer p{
+	width: 30%;
+	float: left;
+}
+
+footer a img{
+	height: 90px;
+	height: 80px;
+	padding-left: 83%
+}
+footer a{
+	width:60%;
+	float: right;
+}
