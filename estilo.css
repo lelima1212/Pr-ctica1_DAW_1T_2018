@@ -1,3 +1,17 @@
+div.menu2_0{
+	margin-left:0px;
+	margin-top:30px;
+	
+}
+li a.2_final{
+	padding:60px;
+}
+aside{
+	margin-left:0px;
+}
+section{
+	margin-left:35px;
+}
 h1{
 	text-align: center;
 }
@@ -26,27 +40,29 @@ ul.horizontal li{
 
 }
 
-nav{
+nav.menu{
     height: auto; /*Junto a overflow: hidden; aplicará a nuestro elemento nav el mismo alto que el más alto de sus elementos hijos */ 
     margin: 0 auto; /* Centro el contenedor */
     overflow: hidden;
     text-align: left;
     width: 960px; /* Defino el ancho de mi página */
+	text-decoration-style:none;
 }
 ul{
     float: left;
     list-style-type: none; /* Elimino los estilos de lista */
     padding: 0;
     position: relative; 
-    left: 50%; 
+    left: 50%;
+	text-decoration-style:none;
 }
-li{
+li.menu1{
     float: left; /* Floto los li para que se dispongan horizontalmente */
     position: relative; 
     right: 50%; 
 }
 li a{
-    padding: 10px; /* El padding añadirá separación entre los elementos */
+    padding: 70px; /* El padding añadirá separación entre los elementos */
 }
 
 section {
@@ -74,7 +90,7 @@ footer {
     border-right: 1px solid black;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-left: 12%;
+    margin-left: 15.5%;
 
 }
 
@@ -115,4 +131,17 @@ footer a img{
 footer a{
 	width:60%;
 	float: right;
+}
+
+div.container{
+	float: left;
+}
+table.container{
+	float:right
+}
+
+nav.menuSec{
+	margin-left:0px;
+	margin-top: 30px;
+	
 }
