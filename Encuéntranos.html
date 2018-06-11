@@ -2,32 +2,49 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<html class="lato-font-loaded" lang="es">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="estilo.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<html class="lato-font-loaded" lang="es">
+		
 		<link rel="icon" href="img/icon.jpg">
 		<title>Práctica1</title>
 	</head>
 	<body>
-		<header>
-			<h1>TodosMisServicios.ec</h1>
-		</header>
-		<nav class="menu">
-			<ul class ="horizontal">
-				<li class="menu1"><a href="Principal.html"> Principal</a></li> 
- 	 			<li class="menu1"><a href="Práctica1_Lima.html"> Quienes Somos</a></li> 
-  				<li class="menu1"> <a href="Personal.html"> Personal</a></li>  
-  				<li class="menu1"> <a href="Encuéntranos.html"> Encuéntranos</a></li> 
-			</ul>
-		</nav>
-		<div id="contenedor">
-			<aside>
-				<h3>¿Cómo usar nuestro sitio?</h3>
-				<iframe width="320" height="240" src="https://www.youtube.com/embed/k-kW1T5dJpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				<h3>Stream</h3>
-					<a class="twitter-timeline" data-width="250" data-height="550" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</aside>
-			<section>
-				<article>
+		<div class="container-fluid">
+			<header>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="page-header">
+							<h1>TodosMisServicios.ec</h1>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="menu">
+						<ul class ="horizontal">
+							<li class="menu1"><a href="Principal.html"> Principal</a></li> 
+			 	 			<li class="menu1"><a href="Práctica1_Lima.html"> Quienes Somos</a></li> 
+			  				<li class="menu1"> <a href="Personal.html"> Personal</a></li>  
+			  				<li class="menu1"> <a href="Encuéntranos.html"> Encuéntranos</a></li> 
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<h3>¿Cómo usar nuestro sitio?</h3>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k-kW1T5dJpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<h3>Stream</h3>
+						<a class="twitter-timeline" data-height="550" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+				<div class="col-md-9">
 					<h2>Envíanos tus Opiniones</h2>
 					<p>Nombres Completos <input type="text" size="15" maxlength="30" value="Ingrese aquí sus nombres" name="nombre"></p>
 					<p>Correo Electrónico<input type="text" size="15" maxlength="30" value="Ingrese aquí su correo electrónico" name="email"></p>
@@ -49,13 +66,19 @@
 					<textarea name="comentarios" rows="10" cols="40">Ingrese aquí tus comentarios</textarea><br>
 					<p><input type="checkbox" name="transporte" value="1">Deseo Suscribirme para recibir noticias</p>
 					<p><input type="button" value="Enviar"></p>
-				</article>
-			</section>
-			
+				</div>
+			</div>
 		</div>
-		<footer>
-			<p>&copy; El contenido de esta obra es propiedad intelectual de nuestro grupo. Prohibida su reproducción total, parcial, comunicación pública, distribución sin autorización previa del titular de los derechos.</p>
-			<a href=""><img src="img/Imagen.png"></a>
-		</footer>
 	</body>
+	<footer>
+		<div class="row">
+				<div class="well well-lg ">
+					<div class="col-md-8">
+						<p> &copy; El contenido de esta obra es propiedad intelectual de nuestro grupo. Prohibida su reproducción total, parcial, comunicación pública, distribución sin autorización previa del titular de los derechos.</p>
+					</div>
+					<div class="col-md-4">
+						<a href=""><img src="img/Imagen.png" class="img-responsive" alt="Cinque Terre" ></a>
+					</div>
+				</div>
+	</footer>
 </html>
